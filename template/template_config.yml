@@ -1,0 +1,25 @@
+info: |
+    A line chart example using rCharts polycharts integration.
+
+    The input data will be an xts object:
+    "date" date index
+    "y" y will be made up of all the xts columns
+
+scripts:
+    - polychart2.standalone.js
+
+styles:
+
+default_parameters: {
+    width: 960,
+    height: 400
+}
+
+require_packages:
+    - xts
+    - reshape2
+    - rCharts
+
+require_server: no
+
+original_url: http://ramnathv.github.io/rCharts/
