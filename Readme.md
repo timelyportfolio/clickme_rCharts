@@ -5,4 +5,4 @@ While rCharts shiny and slidify capabilities are very special and amazing, I thi
 1.  Use Slidify to create a one page slide as our HTML page.
 2.  Add some of the abilities from [clickme](http://github.com/nachocab/clickme).
 
-I put this example together as an example of using both clickme and rCharts.  However it loses the ability to expand {{ }} in the portion of the document.
+I put this example together as an example of using both clickme and rCharts.  However it loses the ability to expand {{ }} in the portion of the document.  I will need to spend some more time thinking about the methods to basically combine the HTML and head portion of the document with .Rmd as the body including .js charting functionality.
