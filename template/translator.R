@@ -1,3 +1,5 @@
+##as this point, this is unnecessary since I lost the ability to knit_expand
+
 xtsAsMelt <- function(opts) {
   require(xts)
   require(reshape2)
@@ -17,4 +19,3 @@ xtsAsMelt <- function(opts) {
   data.melt[,"indexname"] <- apply(matrix(data.melt[,"indexname"]),2,gsub,pattern="[.]",replacement="")
   return(data.melt)
 }
-
